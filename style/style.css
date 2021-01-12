@@ -26,7 +26,7 @@ header section img {
     width: auto;
 }
 header .main-text p{
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     bottom: 20px;
     left: 10px;
@@ -56,4 +56,24 @@ main section div button{
     width: 48px;
     border: 10px;
     background-color: #3366cc;
+    background-image: url(https://libros.colmex.mx/wp-content/plugins/documentos/images/LUPA.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main .main-article {
+    width: 450px;
+    height: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main section div {
+    width: 150px;
+    height: 40px;
 }
