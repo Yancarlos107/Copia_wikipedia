@@ -64,16 +64,32 @@ main section div button{
 main .main-article {
     width: 450px;
     height: 160px;
+    padding-top: 0;
+    margin-top: 0;
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
     margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
-main section div {
+main section .main-article-text {
+    line-height: 30px;
     width: 150px;
     height: 40px;
+    margin: 0 0 45px 0;
+    font-size: 18px;
+}
+main section div a{
+    text-decoration: none;
+}
+main section div a strong {
+    color: #3366cc;
+}
+main section div a small {
+    color: #9099a7;
+}
+main section .main-article-text:hover{
+    cursor: pointer;
 }
