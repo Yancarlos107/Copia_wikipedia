@@ -61,6 +61,9 @@ main section div button{
     background-position: center;
     background-size: contain;
 }
+select.main-container-list{
+    border: none;
+}
 main .main-article {
     width: 450px;
     height: 160px;
@@ -75,7 +78,7 @@ main .main-article {
     text-align: center;
 }
 main section .main-article-text {
-    line-height: 30px;
+    line-height: 28px;
     width: 150px;
     height: 40px;
     margin: 0 0 45px 0;
@@ -86,9 +89,11 @@ main section div a{
 }
 main section div a strong {
     color: #3366cc;
+    font-size: 12px;
 }
 main section div a small {
     color: #9099a7;
+    font-size: 14px;
 }
 main section .main-article-text:hover{
     cursor: pointer;
