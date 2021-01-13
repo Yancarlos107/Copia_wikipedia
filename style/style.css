@@ -76,7 +76,7 @@ select.main-container-list {
 }
 main .main-article {
     max-width: 460px;
-    height: autos ;
+    height: auto;
     padding-top: 0;
     margin-top: 0;
     margin-left: 10px;
@@ -103,7 +103,7 @@ main section div a strong {
     font-size: 12px;
 }
 main section div a small {
-    color: #9099a7;
+    color: #6d7379;
     font-size: 14px;
 }
 main section .main-article-text:hover {
@@ -146,4 +146,55 @@ section a .main-lenguage-text {
     height: 0.1px;
     border: 0.1px solid #c8ccd1;
     margin: 30px 10px;
+}
+footer .footer-wikimedia-container {
+    height: auto;
+    max-width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .footer-wikimedia-container .footer-wikimedia-logo {
+    width: 42px;
+    height: 42px;
+    margin: auto;
+}
+footer .footer-wikimedia-container .footer-wikimedia-text {
+    text-align: center;
+    color: #6d7379;
+    font-size: 15px;
+    padding: 15px;
+}
+footer .other-project-container {
+    max-width: 460px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.other-project-single-container {
+    width: 230px;
+    height: 90px;
+}
+.other-project-single-logo {
+    width: 47px;
+    height: 47px;
+}
+.other-project-single-container-text-primary {
+    color: #3366cc;
+    font-size: 14px;
+    height: 16px;
+    text-align: left;
+    margin: 0;
+}
+.other-project-single-container-text-secundary {
+    color: #6d7379;
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+}
+.other-project-single-container-link {
+    display: flex;
 }
