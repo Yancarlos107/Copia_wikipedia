@@ -198,3 +198,64 @@ footer .other-project-container {
 .other-project-single-container-link {
     display: flex;
 }
+.footer-information-download-container {
+    max-width: 460px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f8f9fa; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-information-download-head {
+    
+    width: 330px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #54595d;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-information-download-head-icon {
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+    border: 1px solid #e6e8eb;
+}
+.footer-information-text {
+    width: 300px;
+    color: #6d7379;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-information-download-icon-container {
+    height: auto;
+    width: 460px;
+    display: flex;
+    justify-content: center;
+}
+.footer-information-icon {
+    height: 38px;
+    width: 120px;
+    margin: 0 auto;
+}
+.footer-information-normative-container {
+    display: flex;
+    font-size: 13px;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    width: 460px;
+}
+.footer-information-normative-container a {
+    text-decoration: none;
+    color: #3366cc;
+}
